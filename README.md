@@ -393,6 +393,6 @@ cd /usr/realtime/testsuite/kern/latency
 
 #### Reflexión
 
-En esta prueba de concepto observamos que es posible generar un abiente de pruebas con procesado en tiempo real dentro de un entorno virtualizado, ademas de esta manera es practico poder probar con distintos sistemas operativos. Otra de las ventajas es la posibilidad de trabajar en entornos como ESXi, esto ayuda a generar nuevas estrategias para el consumo de aplicaciones y el aprovechamiento de todo el potencial de un sistema o servidor, ya sea que se encuentre en nube o fisicamente dentro de una compañia. 
+En esta prueba de concepto observamos que es posible generar un ambiente de pruebas con procesado en tiempo real dentro de un entorno virtualizado, ademas de esta manera es practico poder probar con distintos sistemas operativos. Otra de las ventajas es la posibilidad de trabajar en entornos como ESXi, esto ayuda a generar nuevas estrategias para el consumo de aplicaciones y el aprovechamiento de todo el potencial de un sistema o servidor, ya sea que se encuentre en nube o fisicamente dentro de una compañia. 
 
 Aun asi debe ser cautelozo ya que el uso del nucleo rtai tiene sus limitaciones en cuanto a los chipset soportados, revise muy bien el soporte del chipset en https://www.rtai.org/ antes de generar una solucion definitiva.
